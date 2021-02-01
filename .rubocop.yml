@@ -1,0 +1,8 @@
+AllCops:
+  Exclude:
+    - 'gems/**/*'
+inherit_gem:
+  rubocop-discourse: default.yml
+
+Discourse/NoAddReferenceOrAliasesActiveRecordMigration:
+  Enabled: false
