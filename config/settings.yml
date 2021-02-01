@@ -1,0 +1,4 @@
+plugins:
+  logout_monthly_enabled:
+    default: true
+    client: true
